@@ -74,7 +74,7 @@ router.post('/login', (req, res) => {
     if (req.session.loggedIn) {
       req.session.destroy(() => {
         res.status(204).end();
-        console.log("user has been logged out");
+        res.json({ message: 'You are now logged out!' });
       });
     }
     else {
