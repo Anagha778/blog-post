@@ -16,12 +16,17 @@ async function loginFormHandler(event) {
   
       if (response.ok) {
         console.log("logged in");
-        document.location.replace('/dashboard');
+        alert("logged in!!!")
+        document.location.replace('/');
       } else {
-        alert(response.statusText);
+        alert(response.statusText);  
       }
+    }
+    else
+    {
+      alert("Please enter both username and password");
     }
   };
   
-  document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
+  document.querySelector('#login-btn').addEventListener('click', loginFormHandler);
   

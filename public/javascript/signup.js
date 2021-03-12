@@ -17,11 +17,15 @@ async function signupFormHandler(event) {
       // check the response status
       if (response.ok) {
         console.log('success');
-        window.alert("Your signed in, please go ahead and log in");
+        window.alert("Signed in successfully.");
         document.location.replace('/');
       } else {
         alert(response.statusText);
       }
+    }
+    else
+    {
+      alert("Please enter both username and password");
     }
   };
 
