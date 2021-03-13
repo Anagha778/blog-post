@@ -23,9 +23,13 @@ app.set('view engine', 'handlebars');
 
 const sess = {
   secret: 'Super secret secret',
-  cookie: {},
-  resave: false,
-  saveUninitialized: true,
+  cookie: {
+    // Session will expire in 2 minutes
+    expires: 2 * 60 * 1000
+  },
+  resave: true,
+  rolling: true,
+  saveUninitialized: false,
   store: new SequelizeStore({
     db: sequelize
   })

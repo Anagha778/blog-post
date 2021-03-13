@@ -87,6 +87,8 @@ router.get('/',withAuth, (req, res) => {
         });
   });
 
-
+  router.get('/add',withAuth, (req, res) => {
+    res.render('add-post');
+  });
 
 module.exports = router;

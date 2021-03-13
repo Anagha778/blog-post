@@ -32,11 +32,11 @@ router.get('/', (req, res) => {
   });
 
   router.get('/signup', (req, res) => {
-    /*if (req.session.loggedIn) {
-      console.log("user already logged in");
+    if (req.session.loggedIn) {
+      console.log("user already signed in");
       res.redirect('/');
       return;
-    }*/
+    }
     res.render('signup');
   });
   
