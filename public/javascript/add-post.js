@@ -22,6 +22,10 @@ async function newFormHandler(event) {
       alert(response.statusText);
     }
     }
+    else
+    {
+      alert("Please enter both title and contents");
+    }
   }
   
   document.querySelector('.new-post-form').addEventListener('submit', newFormHandler);
