@@ -1,24 +1,24 @@
 # Tech blog site
 
 ## Purpose of application
-To build a site where in similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
+To build a site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
 
 ## Description
 This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This application follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication, deployed it to Heroku.
 Application flow:
-1.When user visits the site for the first time presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in.
-2.When click on any other links in the navigation then prompted to either sign up or login.
-3.On sign up, prompted to enter username and password. On click of sign up user has been created and signed in to application.
-4.On Login, user can enter username and password created during sign up and can log in to the application on next visit.
-5.Once logged in, user see navigation links for the homepage, the dashboard, and the option to log out.
-6.Click on Home user will be taken to the homepage and presented with existing blog posts that include the post title and the date created.
-7.When clicked on existing blog post on home page, user will be presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment.
-8.When entered a comment and click on the submit button while signed in, the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created.
-9.On click of dashboard link in the navigation,user is taken to the dashboard and presented with any blog posts that have already created and the option to add a new blog post
-10.On click of new post button user can enter Title and contents for the blog and clik of create button post will be saved.
-11.On click on one of my existing posts in the dashboard user will be able to delete or update my post and taken back to an updated dashboard.
-12.On click of the logout option in the navigation user will be signed out of the site.
-13.If user is idle on the page for 10 mins then he will be automatically signed out of application.
+* When user visits the site for the first time presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in.
+* When click on any other links in the navigation then prompted to either sign up or login.
+* On sign up, prompted to enter username and password. On click of sign up user has been created and signed in to application.
+* On Login, user can enter username and password created during sign up and can log in to the application on next visit.
+* Once logged in, user see navigation links for the homepage, the dashboard, and the option to log out.
+* Click on Home user will be taken to the homepage and presented with existing blog posts that include the post title and the date created.
+* When clicked on existing blog post on home page, user will be presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment.
+* When entered a comment and click on the submit button while signed in, the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created.
+* On click of dashboard link in the navigation,user is taken to the dashboard and presented with any blog posts that have already created and the option to add a new blog post
+* On click of new post button user can enter Title and contents for the blog and clik of create button post will be saved.
+* On click on one of my existing posts in the dashboard user will be able to delete or update my post and taken back to an updated dashboard.
+* On click of the logout option in the navigation user will be signed out of the site.
+* If user is idle on the page for 10 mins then he will be automatically signed out of application.
 
 ## User story
 AS A developer who writes about tech
