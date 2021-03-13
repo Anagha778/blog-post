@@ -1,9 +1,13 @@
 <article class="post">
-      <div class="title">
-        <a href="#">{{title}}</a>
-        <div>{{contents}}</span>
-      </div>
-      <div class="meta">
-        Posted by {{user.username}} on {{format_date created_at}}
-      </div>
-    </article>
+  <div class="title card">
+    <div class="card-header">
+      <h5 class="card-title">{{title}}</h5>
+    </div>
+    <div class="card-body">
+      <p class="card-text ">{{contents}}</p>
+    </div> 
+    <div class="meta card-footer" style="font-size: small;">
+      Posted by {{user.username}} on {{format_date created_at}}      
+    </div>
+  </div>
+</article>

@@ -25,6 +25,10 @@ async function commentFormHandler(event) {
           alert(response.statusText);
         }
       }
+    else
+    {
+      alert("Please enter comment");
+    }
   }
   
   document.querySelector('.comment-form').addEventListener('submit', commentFormHandler);

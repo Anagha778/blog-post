@@ -8,7 +8,6 @@
     margin: 0;
     font-family: sans-serif;
     color: rgb(31, 30, 30);
-    background-color: #f0f3f7;
   }
   
   a {
@@ -173,7 +172,10 @@
   
   .newpost-btn{
     margin-top: 20px;
-    margin-left: 40px;
+  }
+
+  .home-post{
+    margin-left: 400px;
   }
 
   footer {
