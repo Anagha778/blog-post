@@ -4,18 +4,17 @@
   
     {{#each posts as |post|}}
     
-      <article class="post">
-        <div class="title card">
+      <article class="post card">
+        
           <div class="card-header">
              <a href="/dashboard/edit/{{post.id}}" class="card-title" style="font-size: 20px;">{{title}}</a>
+             <span style="font-size: small;";>Posted by {{user.username}} on {{format_date created_at}}</span>
           </div>
           <div class="card-body">
             <p class="card-text" style="font-size: 15px;">{{contents}}</p>
           </div> 
-          <div class="meta card-footer" style="font-size: small;">
-            Posted by {{user.username}} on {{format_date created_at}}      
-          </div>
-        </div>
+         
+        
       </article>
      
     {{/each}}
