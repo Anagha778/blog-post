@@ -23,7 +23,7 @@ Comment.init(
         allowNull: false,
         validate: {
             // this means the comment must be at least 1 characters long
-            len: [4]
+            len: [1]
           }
       },
       user_id: {
