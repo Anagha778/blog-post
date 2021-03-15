@@ -69,11 +69,37 @@ Application’s folder structure follows the Model-View-Controller paradigm
 * express-session and connect-session-sequelize : packages to add authentication.
 
 ## Mock-Up
-The following animation demonstrates the application functionality:
+The following images demonstrates the application functionality:
+
+### Login page
+<div>
+    <img src="./images/login.png" width="400px"/> 
+</div>
+
+### Home page
 
 <div>
-    <img src="./images/blog.gif" width="400px"/> 
+    <img src="./images/home.png" width="400px"/> 
 </div>
+
+### Add Comments
+
+<div>
+    <img src="./images/comments.png" width="400px"/> 
+</div>
+
+### Dashboard
+
+<div>
+    <img src="./images/dashboard.png" width="400px"/> 
+</div>
+
+### Edit Post
+
+<div>
+    <img src="./images/edit-post.png" width="400px"/> 
+</div>
+
 
 ## Website URL 
 https://pacific-sands-72490.herokuapp.com/
